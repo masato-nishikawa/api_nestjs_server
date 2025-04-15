@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
+import { AppController, ApiController} from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
   imports: [],
-  controllers: [AppController],
+  // Apiコントローラも追加しないと動かない
+  controllers: [AppController, ApiController], 
   providers: [AppService],
 })
 export class AppModule {}
