@@ -36,7 +36,7 @@ export class ApiController {
     return[
       {
         id: 123,
-        name: '田中太郎-freezede',
+        name: '田中太郎-freezede-riverpod',
         email: 'tanakataro1@example.com',
       },
       {
@@ -46,7 +46,7 @@ export class ApiController {
       },
       {
         id: 789,
-        name: 'Taro Tanaka-freezede',
+        name: 'Taro Tanaka-freezed-riverpod',
         email: 'tanakataro3@example.com',
       },
     ];
